@@ -1,16 +1,8 @@
+import { cn } from "@/lib/utils";
+import ReactLenis from "lenis/react";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import ActiveSectionContextProvider from "@/components/provider/active-section-context";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={cn("bg-[#f6f2e5] text-[#292929] relative overflow-x-hidden")}
       >
-        {children}
+        <ReactLenis root>
+          <ActiveSectionContextProvider>
+            {children}
+          </ActiveSectionContextProvider>
+        </ReactLenis>
       </body>
     </html>
   );
