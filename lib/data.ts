@@ -21,34 +21,35 @@ export const LINKS = [
     href: "#skills",
   },
   {
-    name: "Experiences",
+    name: "Work Experiences",
     href: "#experiences",
   },
 ];
 
 export const EXPERIENCES = [
   {
-    company: "University of Toronto",
-    title: "Bachelors in Computer Engineering",
-    location: "Toronto, ON",
+    company: "Saoraja cafe & Resto",
+    title: "Social Media Admin Marketing",
+    location: "Antang, Makassar,Indonesia",
     description: [
-      "Minor in Artificial Intelligence",
-      "GPA: 3.83/4.00",
-      "Deans list every semester",
-    ],
-    icon: createElement(LuGraduationCap),
-    date: "2019-2024",
-  },
-  {
-    company: "PlayStation",
-    title: "Software Developer Intern",
-    location: "Waterloo, ON",
-    description: [
-      "Worked on the front-end for the Library App on the PlayStation 5 Console team",
-      "Developed robust APIs using Python to collect and analyze coverage statistics, significantly enhancing the efficiency and reliability of the automation framework, resulting in a 25% increase in test coverage accuracy",
+      "Mengelola kampanye iklan di Meta Ads & Google Ads secara rutin",
+      "Meningkatkan engagement media sosial hingga 45% melalui strategi konten",
+      "Terbiasa menggunakan Canva, Meta adds, dan Google form",
     ],
     icon: createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "2023-2025",
+  },
+  {
+    company: "Manujujaya",
+    title: "Staff Administrasi Gudang",
+    location: "Serui, Papua,indonesia",
+    description: [
+      "Mengelola dan mendokumentasikan keluar-masuk barang menggunakan sistem inventaris digital untuk memastikan akurasi stok harian",
+      "Menyusun laporan stok dan pengiriman mingguan yang membantu meningkatkan efisiensi distribusi hingga 25%",
+      "Berkoordinasi dengan tim logistik dan bagian pembelian untuk memastikan kelancaran arus barang dan ketersediaan stok",
+    ],
+    icon: createElement(CgWorkAlt),
+    date: "last 2022 - now in 2025 ",
   },
 ];
 
@@ -57,7 +58,7 @@ export const PROJECTS = [
     title: "E-commerce Dashboard",
     description:
       "A responsive admin dashboard with real-time analytics, order management, and inventory tracking system.",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Redux"],
+    tags: ["React", "TypeScript", "Tailwind CSS"],
     image: "/placeholder.svg",
     githubUrl: "https://github.com/",
   },
@@ -92,12 +93,9 @@ export const SKILLS = [
   "TypeScript",
   "Next.js",
   "Node.js",
-  "Express",
-  "MongoDB",
-  "Firebase",
-  "Material UI",
-  "Redux",
-  "Tailwind CSS",
+  "JavaScript",
+  "HTML",
+  "CSS",
   "Git",
   "GitHub",
   "Figma",
@@ -106,31 +104,31 @@ export const SKILLS = [
 export const SOCIALS_LINKS = [
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/badryansah-bangsawan/",
     icon: createElement(FaLinkedinIn),
   },
   {
     title: "Github",
-    url: "https://github.com/",
+    url: "https://github.com/badryansah",
     icon: createElement(FaGithub),
   },
   {
     title: "Instagram",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/badryanbangsawan",
     icon: createElement(FaInstagram),
   },
 ];
 
 export const LOCATION = {
-  location: "Bandung, West Java, Indonesia",
+  location: "Makassar, Indonesia",
   coords: {
-    latitude: "-6.914744° S",
-    longitude: "107.609810° E",
+    latitude: "-5.147665° S",
+    longitude: "119.432731° E",
   },
-  timezone: "Asia/Jakarta",
+  timezone: "Asia/Makassar",
 };
 
 export const CONTACTS = {
-  email: "afrizal.mufriz25@gmail.com",
-  phone: "+62 812-8000-0000",
+  email: "badryansah99@gmail.com",
+  phone: "+62 852-4430-4050",
 };

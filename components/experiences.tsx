@@ -60,10 +60,7 @@ function TimelineItem({ item, isSmallScreen }: TimelineItemProps) {
       <p className="font-normal !mt-0 text-[#f6f2e5]">{item.location}</p>
       <ul className="!mt-1 !font-normal text-[#f6f2e5] list-disc pl-4">
         {item.description.map((desc, descIndex) => (
-          <li
-            key={descIndex}
-            ref={descIndex === 0 ? inViewRef : undefined}
-          >
+          <li key={descIndex} ref={descIndex === 0 ? inViewRef : undefined}>
             {desc}
           </li>
         ))}
@@ -84,12 +81,9 @@ export default function Experiences() {
         id="experiences"
         className="scroll-mt-28 text-[#bb843d]"
       >
-        <TextReveal
-          className="!font-[Chillax]"
-          animateOnScroll
-        >
+        <TextReveal className="!font-[Chillax]" animateOnScroll>
           <h1 className="px-4 mb-4 uppercase font-bold text-5xl sm:text-7xl text-center text-[#292929]">
-            Experiences
+            Work Experiences
           </h1>
         </TextReveal>
         <VerticalTimeline lineColor="">

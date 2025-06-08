@@ -90,13 +90,13 @@ export default function FooterContent({
                 &copy; {new Date().getFullYear()}
                 <a
                   className="mx-1 hover:underline font-semibold"
-                  href="https://github.com/aafrzl_"
+                  href="https://github.com/badryansah/_"
                   target="_blank"
                 >
-                  Coding With Afrizal
+                  Coding With Badryansah
                 </a>
               </div>
-              <p>Built with 💜</p>
+
               <Link
                 href={"#hero"}
                 className="group font-normal flex items-center gap-2 px-4 py-2 rounded-full focus:scale-110 hover:scale-110 active:scale-110 transition cursor-pointer"

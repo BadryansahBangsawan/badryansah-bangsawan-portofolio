@@ -45,32 +45,26 @@ export default function Footer() {
 
   return (
     <div ref={container}>
-      <svg
-        className="w-full mb-20 sm:mb-40"
-        viewBox="0 0 250 90"
-      >
+      <svg className="w-full mb-20 sm:mb-40" viewBox="0 0 250 90">
         <path
           fill="none"
           id="curve"
           d="M0 88.5C61.37 88.5 61.5 20.5 126.5 20.5C184.5 20.5 177.5 88.5 249.5 88.5"
         />
-        <text
-          className="text-[5.5px] uppercase "
-          style={{ fill: "#292929" }}
-        >
-          {[...Array(5)].map((_, i) => (
-            <textPath
-              className="font-[Chillax]"
-              key={i}
-              ref={(ref) => {
-                paths.current[i] = ref;
-              }}
-              startOffset={`${i * 50}%`}
-              href="#curve"
-            >
-              Designed & Created by Coding with Afrizal ©
-            </textPath>
-          ))}
+        <text className="text-[5.5px] uppercase " style={{ fill: "#292929" }}>
+          <textPath
+            className="font-[Chillax]"
+            ref={(ref) => {
+              paths.current[0] = ref;
+            }}
+            startOffset="0%"
+            href="#curve"
+          >
+            {/* Ulangi string agar memenuhi path */}
+            {Array(3)
+              .fill("Designed & Created by Coding with Badryansah Bangsawan © ")
+              .join("")}
+          </textPath>
         </text>
       </svg>
       <FooterContent scrollProgress={scrollYProgress} />
