@@ -1,7 +1,6 @@
 import { createElement } from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 
 export const LINKS = [
   {
