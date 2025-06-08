@@ -55,36 +55,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-commerce Dashboard",
+    title: "Grab & Ship E-commerce Dashboard",
     description:
       "A responsive admin dashboard with real-time analytics, order management, and inventory tracking system.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     image: "/placeholder.svg",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/badryansah/Gens-project",
   },
   {
-    title: "Social Media API",
-    description:
-      "RESTful API service for a social media platform with user authentication and post management.",
-    tags: ["Node.js", "Express", "MongoDB", "JWT"],
-    image: "/placeholder.svg",
-    githubUrl: "https://github.com/",
-  },
-  {
-    title: "Weather Forecast App",
+    title: "Spill the beans - Coffee Shop",
     description:
       "Real-time weather application with location-based forecasts and interactive maps.",
     tags: ["Next.js", "React", "OpenWeather API", "Mapbox"],
     image: "/placeholder.svg",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/badryansah/Spillthebeans",
   },
   {
-    title: "Task Management System",
+    title: "Saoraja Cafe And Resto - Coffee Shop",
     description:
       "Collaborative project management tool with drag-and-drop interface and team features.",
     tags: ["React", "Firebase", "Material UI", "Redux"],
     image: "/placeholder.svg",
-    githubUrl: "https://github.com/",
+    githubUrl: "https://github.com/badryansah/saorajacafe-resto",
   },
 ];
 

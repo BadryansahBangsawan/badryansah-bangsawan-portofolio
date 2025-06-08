@@ -93,7 +93,7 @@ export default function FooterContent({
                   href="https://github.com/badryansah/_"
                   target="_blank"
                 >
-                  Coding With Badryansah
+                  Badryansah Bangsawan
                 </a>
               </div>
 

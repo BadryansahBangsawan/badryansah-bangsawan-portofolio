@@ -7,7 +7,7 @@ import TextReveal from "./text-reveal";
 import { useSectionInView } from "@/hooks/use-section-inview";
 
 const phrase =
-  "I'm a passionate and dedicated software developer with over 5 years of experience in creating elegant, scalable solutions. My expertise spans across modern web technologies including React, TypeScript, Node.js, and cloud platforms. I'm committed to crafting responsive, user-friendly applications that not only meet business objectives but also provide exceptional user experiences. Throughout my career, I've successfully delivered numerous projects, from small business websites to complex enterprise applications. When I'm not coding, I'm constantly learning and exploring new technologies to stay at the forefront of web development, participating in tech communities, and contributing to open-source projects. My goal is to create innovative solutions that make a meaningful impact in the digital world.";
+  "Halo! Saya adalah seorang Front-End Web Developer yang berdedikasi dan bersemangat dalam menciptakan pengalaman digital yang menarik dan responsif. Saya menguasai berbagai teknologi modern seperti React, TypeScript, Next.js, Node.js, JavaScript, HTML, CSS, Git, GitHub, serta memiliki kemampuan desain antarmuka menggunakan Figma. Selain itu, saya juga memiliki keahlian di bidang videografi, editing video, pilot drone, dan desain grafis. Dengan perpaduan antara kemampuan teknis dan kreativitas, saya siap memberikan solusi digital yang efektif dan estetis.";
 
 export default function About() {
   const { ref } = useSectionInView("About", 0.5);
@@ -81,10 +81,7 @@ export default function About() {
       id="about"
       className="flex flex-col gap-2 mt-28 max-w-[65rem] text-center leading-0 scroll-mt-28"
     >
-      <TextReveal
-        className="!font-[Chillax]"
-        animateOnScroll
-      >
+      <TextReveal className="!font-[Chillax]" animateOnScroll>
         <h1 className="px-4 uppercase font-bold text-5xl sm:text-7xl text-center text-[#292929]">
           About Me
         </h1>
