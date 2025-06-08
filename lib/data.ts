@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "Spill the beans - Coffee Shop",
     description:
       "Real-time weather application with location-based forecasts and interactive maps.",
-    tags: ["Next.js", "React", "OpenWeather API", "Mapbox"],
+    tags: ["Next.js", "React", "Tailwind CSS"],
     image: "/placeholder.svg",
     githubUrl: "https://github.com/badryansah/Spillthebeans",
   },
@@ -73,7 +73,7 @@ export const PROJECTS = [
     title: "Saoraja Cafe And Resto - Coffee Shop",
     description:
       "Collaborative project management tool with drag-and-drop interface and team features.",
-    tags: ["React", "Firebase", "Material UI", "Redux"],
+    tags: ["React", "Material UI"],
     image: "/placeholder.svg",
     githubUrl: "https://github.com/badryansah/saorajacafe-resto",
   },
