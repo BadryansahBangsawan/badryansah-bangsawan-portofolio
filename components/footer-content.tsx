@@ -27,7 +27,7 @@ export default function FooterContent({
               <h2 className="text-4xl font-bold">Want to get in touch?</h2>
               <p className="text-xl font-normal">
                 I&apos;m always open to new opportunities and collaborations.
-                Feel free to reach out to me via email or LinkedIn.
+                Feel free to reach out to me via WhatsApp.
               </p>
               <ContactForm />
             </div>
@@ -90,7 +90,7 @@ export default function FooterContent({
                 &copy; {new Date().getFullYear()}
                 <a
                   className="mx-1 hover:underline font-semibold"
-                  href="https://github.com/badryansah/_"
+                  href="https://github.com/BadryansahBangsawan_"
                   target="_blank"
                 >
                   Badryansah Bangsawan

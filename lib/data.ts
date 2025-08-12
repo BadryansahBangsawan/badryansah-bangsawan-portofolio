@@ -59,7 +59,7 @@ export const PROJECTS = [
       "A responsive admin dashboard with real-time analytics, order management, and inventory tracking system.",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     image: "/placeholder.svg",
-    githubUrl: "https://github.com/badryansah/Gens-project",
+    githubUrl: "https://github.com/badryansahBangsawan/Gens-project",
   },
   {
     title: "Spill the beans - Coffee Shop",
@@ -67,7 +67,7 @@ export const PROJECTS = [
       "Real-time weather application with location-based forecasts and interactive maps.",
     tags: ["Next.js", "React", "Tailwind CSS"],
     image: "/placeholder.svg",
-    githubUrl: "https://github.com/badryansah/Spillthebeans",
+    githubUrl: "https://github.com/badryansahBangsawan/Spillthebeans",
   },
   {
     title: "Saoraja Cafe And Resto - Coffee Shop",
@@ -75,7 +75,7 @@ export const PROJECTS = [
       "Collaborative project management tool with drag-and-drop interface and team features.",
     tags: ["React", "Material UI"],
     image: "/placeholder.svg",
-    githubUrl: "https://github.com/badryansah/saorajacafe-resto",
+    githubUrl: "https://github.com/badryansahBangsawan/saorajacafe-resto",
   },
 ];
 
@@ -100,7 +100,7 @@ export const SOCIALS_LINKS = [
   },
   {
     title: "Github",
-    url: "https://github.com/badryansah",
+    url: "https://github.com/BadryansahBangsawan",
     icon: createElement(FaGithub),
   },
   {
