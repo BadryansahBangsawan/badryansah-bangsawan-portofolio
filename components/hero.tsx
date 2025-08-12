@@ -57,7 +57,7 @@ export default function Hero() {
         </a>
         <a
           className="group font-medium flex items-center mx-3 my-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer underline-hover-effect"
-          href="https://github.com/badryansah"
+          href="https://github.com/BadryansahBangsawan"
           target="_blank"
         >
           Github
