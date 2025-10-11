@@ -1,7 +1,6 @@
 import { useGetTime } from "@/hooks/use-get-time";
 import { CONTACTS, LOCATION, SOCIALS_LINKS } from "@/lib/data";
 import { motion, MotionValue, useTransform } from "framer-motion";
-import Link from "next/link";
 import { BsArrowUpRight } from "react-icons/bs";
 import ContactForm from "./contact-form";
 
