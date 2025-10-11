@@ -97,13 +97,17 @@ export default function FooterContent({
                 </a>
               </div>
 
-              <Link
-                href={"#hero"}
+              <a
+                href={
+                  "https://drive.google.com/drive/folders/1TcLKDJM07etyFmgvGcSlJfBGk3OAmGvw?usp=sharing"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group font-normal flex items-center gap-2 px-4 py-2 rounded-full focus:scale-110 hover:scale-110 active:scale-110 transition cursor-pointer"
               >
                 Back to top
                 <BsArrowUpRight className="group-hover:-rotate-45 transition" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
