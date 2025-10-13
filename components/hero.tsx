@@ -50,7 +50,7 @@ export default function Hero() {
         </Link>
         <a
           className="three-d group font-medium flex items-center mx-3 my-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer underline-hover-effect"
-          href="https://www.instagram.com/badryanbangsawan"
+          href="https://drive.google.com/drive/folders/19Z4vSFYDeOITgzn685RREi-ECu_xKsdz?usp=sharing"
           target="_blank"
         >
           Instagram
