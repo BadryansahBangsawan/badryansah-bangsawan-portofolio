@@ -14,7 +14,7 @@ export default function GithubLinksTable() {
             <tbody>
               <tr>
                 <td className="p-2">
-                  https://github.com/MaklonFR/todo-list.git
+                  git clone https://github.com/MaklonFR/todo-list.git
                 </td>
               </tr>
             </tbody>
@@ -25,7 +25,7 @@ export default function GithubLinksTable() {
             <tbody>
               <tr>
                 <td className="p-2">
-                  https://github.com/MaklonFR/diskon-app.gi
+                  git clone https://github.com/MaklonFR/diskon-app.gi
                 </td>
               </tr>
             </tbody>
@@ -36,6 +36,7 @@ export default function GithubLinksTable() {
             <tbody>
               <tr>
                 <td className="p-2 text-gray">
+                  git clone
                   https://github.com/MaklonFR/simple-calculator-app.git
                 </td>
               </tr>
