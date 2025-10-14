@@ -96,17 +96,18 @@ export default function FooterContent({
                 </a>
               </div>
 
-              <a
-                href={
-                  "https://drive.google.com/drive/folders/1TcLKDJM07etyFmgvGcSlJfBGk3OAmGvw?usp=sharing"
-                }
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
+                onClick={() => {
+                  if (typeof window !== "undefined" && window.scrollTo) {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }
+                }}
                 className="group font-normal flex items-center gap-2 px-4 py-2 rounded-full focus:scale-110 hover:scale-110 active:scale-110 transition cursor-pointer"
               >
                 Back to top
                 <BsArrowUpRight className="group-hover:-rotate-45 transition" />
-              </a>
+              </button>
             </div>
           </div>
         </div>

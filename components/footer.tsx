@@ -60,7 +60,6 @@ export default function Footer() {
             startOffset="0%"
             href="#curve"
           >
-            {/* Ulangi string agar memenuhi path */}
             {Array(3)
               .fill("Designed & Created by Coding with Badryansah Bangsawan © ")
               .join("")}
